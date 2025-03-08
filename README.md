@@ -1,16 +1,16 @@
-## Hi there 👋
+# 👋 Hello, I'm Azuryx!  
 
-<!--
-**Azuryxx/Azuryxx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class DeveloperProfile:
+    def __init__(self):
+        self.name = "Azuryx"
+        self.status = "Étudiant en Informatique 🎓"
+        self.level = "Débutant en programmation"
+        self.languages = ["Python 🐍", "Bases en C#"]
+        self.learning = ["Développement logiciel", "Algo & structures de données"]
 
-Here are some ideas to get you started:
+    def introduce(self):
+        return f"Salut, je suis {self.name}, {self.status}. J'apprends {', '.join(self.languages)}!"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = DeveloperProfile()
+print(me.introduce())
