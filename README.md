@@ -35,13 +35,13 @@ public class DeveloperProfile
     {
         DeveloperProfile me = new DeveloperProfile();
         Console.WriteLine(me.Introduce());
-        Console.WriteLine(me.ToolsUsed());  // Affiche les outils utilisés
+        Console.WriteLine(me.ToolsUsed());  
     }
 }
 
     {
         DeveloperProfile me = new DeveloperProfile();
         Console.WriteLine(me.Introduce());
-        Console.WriteLine(me.ToolsUsed());  // Affiche les outils utilisés
+        Console.WriteLine(me.ToolsUsed());  
     }
 }
