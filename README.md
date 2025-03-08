@@ -1,36 +1,34 @@
 # 👋 Hello, I'm Azuryxx!  
 
-class DeveloperBio:
-    def __init__(self):
-        self.name = "Azuryx"
-        self.title =   Étudiant en Informatique 🎓
-        self.languages = ["Python 🐍", " basse du C# 🎮", "HTML & CSS ✨"]
-        self.frameworks = [ "Node.js"]
-        self.tools = ["Git 🔧", "PyCharm 🖥️", "VS Code 👨‍💻", "Linux 🐧"]
-        self.interests = ["Développement Web", "Basse de Donnée", "Sécurité Informatique"]
-        self.current_project = "Apprendre le Machine Learning 📚"
-        self.contact = "azuryy_"
 
-    def intro(self):
-        return f"Salut, je suis {self.name}, un passionné de programmation qui apprend et explore sans cesse des nouvelles technologies. 🚀"
-    
-    def languages_used(self):
-        return f"J'utilise des langages comme {', '.join(self.languages)}."
-    
-    def framework_expertise(self):
-        return f"Je travaille avec des frameworks tels que {', '.join(self.frameworks)}."
-    
-    def tools_i_use(self):
-        return f"Mes outils favoris incluent {', '.join(self.tools)}."
-    
-    def interests_and_learning(self):
-        return f"Je m'intéresse à {', '.join(self.interests)} et mon projet actuel est de {self.current_project}."
-    
-    def contact_info(self):
-        return f"Si tu veux discuter ou collaborer : {self.contact}"
 
-# Création de la bio
-me = DeveloperBio()
+```markdown
+# Profil de Développeur - Azuryx 👨‍💻
+
+Découvrez mon parcours de développeur C# et mes compétences en programmation !
+
+```csharp
+using System;
+
+public class DeveloperProfile
+{
+    public string Name = "Azuryx";
+    public string Status = "Étudiant en Informatique 🎓";
+    public string Level = "Débutant en C#";
+    public string[] Languages = { "Python 🐍","C# 💻", "HTML", "CSS" };
+    public string[] Learning = { "Unity3D", "Développement de jeux vidéo" };
+
+    public string Introduce()
+    {
+        return $"Salut, je suis {Name}, {Status}. J'apprends {string.Join(", ", Languages)}!";
+    }
+
+    public static void Main(string[] args)
+    {
+        DeveloperProfile me = new DeveloperProfile();
+        Console.WriteLine(me.Introduce());
+    }
+}
 
 # Affichage de la bio
 print(me.intro())
