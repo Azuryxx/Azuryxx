@@ -1,9 +1,9 @@
-# 👋 Hello, I'm Azuryx!  
+# 👋 Hello, I'm Azuryxx!  
 
 ```python
 class DeveloperProfile:
     def __init__(self):
-        self.name = "Azuryx"
+        self.name = "Azuryxx"
         self.status = "Étudiant en Informatique 🎓"
         self.level = "Débutant en programmation"
         self.languages = ["Python 🐍", "Bases en C#"]
