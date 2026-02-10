@@ -12,7 +12,7 @@ using System;
 
 public class DeveloperProfile
 {
-    public string Name = "Azuryx";
+    public string Name = "Azuryxx";
     public string Status = "Étudiant en Informatique 🎓";
     public string Level = "Débutant en dev";
     public string[] Languages = { "Python 🐍", "C# 💻", "HTML", "CSS",  };
